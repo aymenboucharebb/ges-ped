@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: ges-ped-demo
+    env: python
+    buildCommand: "pip install -r requirements.txt || echo 'No requirements.txt found, skipping'"
+    startCommand: "python server.py --no-browser"
+    plan: free
+    envVars:
+      - key: GESPED_ALLOW_SETUP
+        value: "1"
+      - key: GESPED_TRUST_PROXY
+        value: "1"
+      - key: GESPED_SECURE_COOKIE
+        value: "1"
+      - key: GESPED_HOSTS
+        value: "*" 
+      - key: GESPED_PUBLIC_URL
+        value: "https://ges-ped-demo.onrender.com"
+      - key: PYTHON_VERSION
+        value: "3.10.12"

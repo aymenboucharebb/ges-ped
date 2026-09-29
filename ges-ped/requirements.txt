@@ -1,0 +1,2 @@
+# Ce fichier indique à Render qu'il s'agit d'un projet Python.
+# L'application fonctionne avec la bibliothèque standard (SQLite) sans dépendances externes.

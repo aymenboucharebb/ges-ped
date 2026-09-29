@@ -1,0 +1,122 @@
+=== Tests automatisés — SQLite (Python 3.12) ===
+test_backup_restore (test_domain.DomainTests.test_backup_restore) ... ok
+test_calendar_conflict (test_domain.DomainTests.test_calendar_conflict) ... ok
+test_closed_year_immutable (test_domain.DomainTests.test_closed_year_immutable) ... ok
+test_consultation_cannot_write (test_domain.DomainTests.test_consultation_cannot_write) ... ok
+test_coverage_subgroups (test_domain.DomainTests.test_coverage_subgroups) ... ok
+test_cross_level_group_rejected (test_domain.DomainTests.test_cross_level_group_rejected) ... ok
+test_department_scope (test_domain.DomainTests.test_department_scope) ... ok
+test_english_not_multiplied_by_groups (test_domain.DomainTests.test_english_not_multiplied_by_groups) ... ok
+test_ensf_week_and_slots (test_domain.DomainTests.test_ensf_week_and_slots) ... ok
+test_equivalence_and_three_loads (test_domain.DomainTests.test_equivalence_and_three_loads) ... ok
+test_generate_idempotent (test_domain.DomainTests.test_generate_idempotent) ... ok
+test_group_ancestors_conflict (test_domain.DomainTests.test_group_ancestors_conflict) ... ok
+test_half_load_requires_decision (test_domain.DomainTests.test_half_load_requires_decision) ... ok
+test_invalid_realized_duration (test_domain.DomainTests.test_invalid_realized_duration) ... ok
+test_makeup_link_and_actual (test_domain.DomainTests.test_makeup_link_and_actual) ... ok
+test_makeup_origin_cannot_double_realized (test_domain.DomainTests.test_makeup_origin_cannot_double_realized) ... ok
+test_multi_teacher_split_and_overflow (test_domain.DomainTests.test_multi_teacher_split_and_overflow) ... ok
+test_non_overlapping_weeks (test_domain.DomainTests.test_non_overlapping_weeks) ... ok
+test_numbers_reject_nan (test_domain.DomainTests.test_numbers_reject_nan) ... ok
+test_optimistic_lock (test_domain.DomainTests.test_optimistic_lock) ... ok
+test_partial_makeup_no_double_planned (test_domain.DomainTests.test_partial_makeup_no_double_planned) ... ok
+test_planned_overflow (test_domain.DomainTests.test_planned_overflow) ... ok
+test_reference_rejects_other_year (test_domain.DomainTests.test_reference_rejects_other_year) ... ok
+test_room_capacity (test_domain.DomainTests.test_room_capacity) ... ok
+test_room_type (test_domain.DomainTests.test_room_type) ... ok
+test_rule_versions (test_domain.DomainTests.test_rule_versions) ... ok
+test_seed_no_real_assignments (test_domain.DomainTests.test_seed_no_real_assignments) ... ok
+test_semester_date_edit_before_scheduling (test_domain.DomainTests.test_semester_date_edit_before_scheduling) ... ok
+test_unavailability (test_domain.DomainTests.test_unavailability) ... ok
+test_unavailability_after_booking_rejected (test_domain.DomainTests.test_unavailability_after_booking_rejected) ... ok
+test_unchanged_numeric_string_allowed (test_domain.DomainTests.test_unchanged_numeric_string_allowed) ... ok
+test_unknown_capacity_group (test_domain.DomainTests.test_unknown_capacity_group) ... ok
+test_unknown_language_not_claimed_french (test_domain.DomainTests.test_unknown_language_not_claimed_french) ... ok
+test_used_program_immutable_volume (test_domain.DomainTests.test_used_program_immutable_volume) ... ok
+test_weeks (test_domain.DomainTests.test_weeks) ... ok
+test_xlsx_roundtrip_strings_safe (test_domain.DomainTests.test_xlsx_roundtrip_strings_safe) ... ok
+test_year_copy_isolated_no_assignments (test_domain.DomainTests.test_year_copy_isolated_no_assignments) ... ok
+test_auth_required (test_http.HttpTests.test_auth_required) ... ok
+test_backup_and_preview_no_mutation (test_http.HttpTests.test_backup_and_preview_no_mutation) ... ok
+test_bad_import_cannot_commit (test_http.HttpTests.test_bad_import_cannot_commit) ... ok
+test_create_update_and_audit (test_http.HttpTests.test_create_update_and_audit) ... ok
+test_cross_origin_rejected (test_http.HttpTests.test_cross_origin_rejected) ... ok
+test_csrf_required (test_http.HttpTests.test_csrf_required) ... ok
+test_excel_export (test_http.HttpTests.test_excel_export) ... ok
+test_excel_import_preview_commit (test_http.HttpTests.test_excel_import_preview_commit) ... ok
+test_no_last_admin_removal (test_http.HttpTests.test_no_last_admin_removal) ... ok
+test_setup_only_once (test_http.HttpTests.test_setup_only_once) ... ok
+test_teacher_confidentiality_http (test_http.HttpTests.test_teacher_confidentiality_http) ... ok
+test_user_consultation_write_denied (test_http.HttpTests.test_user_consultation_write_denied) ... ok
+test_assignment_from_wish (test_interdepartements.InterDepartementTests.test_assignment_from_wish) ... ok
+test_chef_assigns_teacher_from_other_department (test_interdepartements.InterDepartementTests.test_chef_assigns_teacher_from_other_department) ... ok
+test_chef_scope_sees_global_loads_not_other_department_details (test_interdepartements.InterDepartementTests.test_chef_scope_sees_global_loads_not_other_department_details) ... ok
+test_confidentiality_between_teachers (test_interdepartements.InterDepartementTests.test_confidentiality_between_teachers) ... ok
+test_cross_department_group_and_room_conflict (test_interdepartements.InterDepartementTests.test_cross_department_group_and_room_conflict) ... ok
+test_cross_department_teacher_conflict (test_interdepartements.InterDepartementTests.test_cross_department_teacher_conflict) ... ok
+test_draft_assignments_excluded_from_english_rate (test_interdepartements.InterDepartementTests.test_draft_assignments_excluded_from_english_rate) ... ok
+test_duplicate_teacher_forbidden (test_interdepartements.InterDepartementTests.test_duplicate_teacher_forbidden) ... ok
+test_english_rate_from_assignments (test_interdepartements.InterDepartementTests.test_english_rate_from_assignments) ... ok
+test_global_load_across_departments (test_interdepartements.InterDepartementTests.test_global_load_across_departments) ... ok
+test_half_load_target (test_interdepartements.InterDepartementTests.test_half_load_target) ... ok
+test_migration_from_v1 (test_interdepartements.InterDepartementTests.test_migration_from_v1) ... ok
+test_overload_detected_on_total (test_interdepartements.InterDepartementTests.test_overload_detected_on_total) ... ok
+test_teacher_cannot_self_assign (test_interdepartements.InterDepartementTests.test_teacher_cannot_self_assign) ... ok
+test_teacher_in_two_departments_single_profile (test_interdepartements.InterDepartementTests.test_teacher_in_two_departments_single_profile) ... ok
+test_teacher_wish_lifecycle (test_interdepartements.InterDepartementTests.test_teacher_wish_lifecycle) ... ok
+test_teacher_without_department_can_teach (test_interdepartements.InterDepartementTests.test_teacher_without_department_can_teach) ... ok
+test_wish_campaign_rules (test_interdepartements.InterDepartementTests.test_wish_campaign_rules) ... ok
+test_wishes_in_two_departments (test_interdepartements.InterDepartementTests.test_wishes_in_two_departments) ... ok
+test_wishes_not_limited_by_load_and_several_candidates (test_interdepartements.InterDepartementTests.test_wishes_not_limited_by_load_and_several_candidates) ... ok
+test_year_copy_keeps_person_not_wishes (test_interdepartements.InterDepartementTests.test_year_copy_keeps_person_not_wishes) ... ok
+test_feedback (test_pilote_web.PiloteWebTests.test_feedback) ... ok
+test_first_login_forces_password_change (test_pilote_web.PiloteWebTests.test_first_login_forces_password_change) ... ok
+test_hosts_origin_and_secure_cookie (test_pilote_web.PiloteWebTests.test_hosts_origin_and_secure_cookie) ... ok
+test_lockout_after_repeated_failures (test_pilote_web.PiloteWebTests.test_lockout_after_repeated_failures) ... ok
+test_pilot_scenarios_and_api_tampering (test_pilote_web.PiloteWebTests.test_pilot_scenarios_and_api_tampering) ... ok
+test_session_expiry_logout_and_cookie_flags (test_pilote_web.PiloteWebTests.test_session_expiry_logout_and_cookie_flags) ... ok
+test_setup_disabled_on_server (test_pilote_web.PiloteWebTests.test_setup_disabled_on_server) ... ok
+test_simultaneous_users (test_pilote_web.PiloteWebTests.test_simultaneous_users) ... ok
+test_username_and_temporary_password (test_pilote_web.PiloteWebTests.test_username_and_temporary_password) ... ok
+
+----------------------------------------------------------------------
+Ran 79 tests in 32.844s
+
+OK
+
+=== Tests automatisés — PostgreSQL 16 ===
+Ran 79 tests in 81.205s
+
+OK
+
+=== Recette HTTPS de bout en bout (Chromium, certificat vérifié) — 25/09/2026 11:53 ===
+OK    Admin : HTTPS valide, changement obligatoire du mot de passe, tableau de bord
+OK    Nom ges-ped et mention PILOTE
+OK    Identifiants générés : n.laouar, e.bensalah
+OK    Mots de passe temporaires uniques de 8 caractères
+OK    Lien transmis = adresse https du site
+OK    A2-3 Chef A : mot de passe temporaire accepté puis changement exigé
+OK    A3 Aucun accès aux données avant le changement
+OK    A4 Tableau de bord du bon département
+OK    A5 Campagne de vœux créée et ouverte par le chef A
+OK    B3 Enseignant : espace simple (6 menus, aucun menu administratif)
+OK    B4-5 / C2-3 Vœux avec langue, dans les deux départements
+OK    A7 Acceptation et refus enregistrés
+OK    A8 Affectation créée depuis le vœu (préremplie)
+OK    A9 Affectation manuelle sans vœu
+OK    Aide à la décision : charge globale et reste affichés
+OK    C4 Affectation dans le département B pour le même enseignant
+OK    A10 Chef A : modification du département B refusée (affectation, vœu, programme)
+OK    F Conflit enseignant entre départements bloqué
+OK    C6 Un seul emploi du temps regroupant les deux départements
+OK    B7 Aucun sélecteur d’enseignant
+OK    C5 Charge totale ENSF unique (ventilée A + B)
+OK    D Enseignant n°1 : données de l’enseignant n°2 refusées par l’API (16 tentatives)
+OK    E Cinq utilisateurs connectés simultanément sur la même base
+OK    G Taux d’anglais ENSF / départements calculés depuis les affectations
+OK    G Liste des enseignants enseignant en anglais
+OK    Retours pilotes transmis à l’administrateur
+OK    Déconnexion effective
+OK    Aucune erreur JavaScript
+
+28/28 contrôles de recette réussis
