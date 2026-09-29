@@ -125,7 +125,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
             db=connect(DB)
             try:
                 host=self.headers.get('Host','');allowed=HOSTS or [f'127.0.0.1:{self.server.server_port}',f'localhost:{self.server.server_port}']
-                require(host.lower() in allowed,'Adresse du site non autorisée.')
+                require('*' in allowed or host.lower() in allowed,'Adresse du site non autorisée.')
                 parsed=urllib.parse.urlparse(self.path);path=parsed.path;q={k:v[0] for k,v in urllib.parse.parse_qs(parsed.query).items()}
                 payload={}
                 if post:
